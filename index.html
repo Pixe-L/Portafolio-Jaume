@@ -73,7 +73,7 @@
 					<li><a href="#contact"></a>HABLEMOS</li>
 				</ul>
 			</nav>
-			<button class="btn__one">CURRÍCULUM</button>
+			<a href="#" class="btn-primary" title="Descargar currículum">CURRÍCULUM</a>
 		</header>
 		<!-- HERO -->
 		<div class="wrapper">
@@ -91,29 +91,31 @@
 						las personas.
 					</p>
 					<div class="social_networks">
-						<a href="https://github.com/Yasoom" class="btn__icon"
+						<a href="https://github.com/Yasoom" class="btn-icon"
 							><img
 								src="./icons/icon-phone.svg"
 								alt="Icono teléfono"
 								title="Icono teléfono" /></a
-						><a href="https://github.com/Yasoom" class="btn__icon"
+						><a href="https://github.com/Yasoom" class="btn-icon"
 							><img
 								src="./icons/icon-important_mail.svg"
 								alt="Icono mail"
 								title="Icono mail" /></a
-						><a href="https://github.com/Yasoom" class="btn__icon"
+						><a href="https://github.com/Yasoom" class="btn-icon"
 							><img
 								src="./icons/icon-instagram.svg"
 								alt="Icono instagram"
 								title="Icono instagram" /></a
-						><a href="https://github.com/Yasoom" class="btn__icon"
+						><a href="https://github.com/Yasoom" class="btn-icon"
 							><img
 								src="./icons/icon-twitter_squared.svg"
 								alt="Icono twitter"
 								title="Icono twitter"
 						/></a>
 					</div>
-					<button class="btn__two">DESCARGAR CURRÍCULUM</button>
+					<a href="#" class="btn-primary" title="Descargar currículum"
+						>DESCARGAR CURRÍCULUM</a
+					>
 				</div>
 			</section>
 			<section class="experience" aria-label="Experiencia">
@@ -124,6 +126,8 @@
 				<p>Aquí hay algunos que me gustaría compartir.</p>
 				<img src="./icons/icons-down.svg" alt="Flecha abajo" title="Flecha abajo" />
 			</section>
+
+			<!-- PROJECT WEB -->
 			<section class="project-web" id="project" aria-label="Proyecto Leonidas">
 				<div class="project-img">
 					<img src="./images/web.png" alt="Web de Leonidas" title="Web de Leonidas" />
@@ -143,14 +147,132 @@
 				</div>
 			</section>
 			<section class="testimony" aria-label="Testimonio personal">
-				<img src="./images/Leo.png" alt="" />
+				<img src="./images/Leo.png" alt="Foto" title="Foto" />
 				<p>
 					"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo
 					que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".
 				</p>
 				<p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
 			</section>
-			<section class="project-marvol" aria-label="Proyecto Marvo">.</section>
+
+			<!-- PROJECT MARVOL -->
+			<section class="project-marvol" aria-label="Proyecto Marvo">
+				<div class="project-img">
+					<img src="./images/📱 iPad.png" alt="Proyecto Marvol" title="Proyecto Marvol" />
+				</div>
+				<div class="project-description">
+					<a class="title" href="#">MARVOL</a>
+					<p>
+						Es el sitio oficial de Marvol Entertainment. Explore películas, personajes,
+						cómics, programas de televisión, videos y más oficiales de Marvol.
+					</p>
+					<div class="project-links">
+						<a href="https://github.com/Yasoom" class="btn-primary" target="_blank"
+							>VER PROYECTO</a
+						>
+						<a href="#" class="btn-secundary">VER CÓDIGO</a>
+					</div>
+				</div>
+			</section>
+			<section class="testimony" aria-label="Testimonio personal">
+				<img src="./images/person.png" alt="Foto" title="Foto" />
+				<p>"Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".</p>
+				<p>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
+			</section>
+
+			<!-- PROJECT NETNET -->
+			<section class="project-netnet" aria-label="Proyecto Netnet">
+				<div class="project-img">
+					<img
+						src="./images/📱 Iphone X.png"
+						alt="Proyecto Marvol"
+						title="Proyecto Marvol"
+					/>
+				</div>
+				<div class="project-description">
+					<a class="title" href="#">NETNET</a>
+					<p>
+						Películas y series ilimitadas y mucho más. Disfruta donde quieras. Cancela
+						cuando quieras.
+					</p>
+					<div class="project-links">
+						<a href="https://github.com/Yasoom" class="btn-primary" target="_blank"
+							>VER PROYECTO</a
+						>
+						<a href="#" class="btn-secundary">VER CÓDIGO</a>
+					</div>
+				</div>
+			</section>
+			<section class="testimony" aria-label="Testimonio personal">
+				<img src="./images/user.png" alt="Foto" title="Foto" />
+				<p>
+					"Por primera vez en la historia de nuestra empresa, aparecimos en todas las
+					plataformas en las que trabajamos".
+				</p>
+				<p>MARCO CORTEZ / NETNET</p>
+			</section>
 		</div>
+
+		<!-- FORM -->
+		<section class="contact" id="contact" aria-label="Formulario de contacto">
+			<form action="" class="form">
+				<h2>HABLEMOS</h2>
+				<p>
+					Si está interesado en trabajar conmigo en su próximo proyecto, no dude en
+					ponerse en contacto conmigo.
+				</p>
+				<label for="nameUser"
+					>Nombre completo*
+					<input type="text" id="nameUser" placeholder="Arturo" required />
+				</label>
+				<label for="emailUser"
+					>Correo electrónico*
+					<input type="text" id="emailUser" placeholder="arturo@gmail.com" required />
+				</label>
+				<label for="messageUser"
+					>Mensaje
+					<textarea
+						name="messageUser"
+						id="messageUser"
+						cols="30"
+						rows="10"
+						placeholder="Mensaje"
+					></textarea>
+				</label>
+				<button class="btn-primary" type="submit">ENVIAR MENSAJE</button>
+			</form>
+		</section>
+
+		<!-- FOOTER -->
+		<footer class="footer">
+			<figure class="footer-logo">
+				<img src="./images/LOGO.png" />
+			</figure>
+			<div class="social-networks">
+				<a href="https://github.com/Yasoom" class="btn-icon"
+					><img src="./icons/icon-phone.svg" alt="" /></a
+				><a href="https://github.com/Yasoom" class="btn-icon"
+					><img src="./icons/icon-important_mail.svg" alt="" /></a
+				><a href="https://github.com/Yasoom" class="btn-icon"
+					><img src="./icons/icon-instagram.svg" alt="" /></a
+				><a href="https://github.com/Yasoom" class="btn-icon"
+					><img src="./icons/icon-twitter_squared.svg" alt="" /></a
+				><a href="https://github.com/Yasoom" class="btn-icon"
+					><img src="./icons/icon-heart_outline.svg" alt=""
+				/></a>
+			</div>
+			<div class="created">
+				<p>
+					Hecho con 💙
+					<a href="https://www.youtube.com/c/TUTOSPIXEL" class="footer-info"
+						>Arturo CR.</a
+					>
+					Copyright 2021 -
+					<a href="https://leonidasesteban.com/" class="footer-info"
+						>Todos los derechos reservados.</a
+					>
+				</p>
+			</div>
+		</footer>
 	</body>
 </html>
