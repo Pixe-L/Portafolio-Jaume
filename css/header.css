@@ -1,0 +1,13 @@
+.header {
+	height: 5.063rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	margin: auto;
+	max-width: 72.5rem;
+	backdrop-filter: blur(0.625rem);
+	padding-inline-start: 1rem;
+	padding-inline-end: 1rem;
+}
