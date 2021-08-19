@@ -3,6 +3,7 @@
 #### Plantilla para crear un portafolio minimalista y cool.🌟
 
 <hr>
+
 ### Made with 🔨
 
 <a href="https://devdocs.io/html/" target="_blank">
