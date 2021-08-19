@@ -16,4 +16,4 @@
 
 ### Preview 📸
 
-<a href="https://gyazo.com/151ebec214d99d0ff3bed1216ddc439a"><img src="https://i.gyazo.com/151ebec214d99d0ff3bed1216ddc439a.png" alt="Image from Gyazo" width="744.8"/></a>
+<a href="https://gyazo.com/f220c042e8a82413afa8e03028033d57"><img src="https://i.gyazo.com/f220c042e8a82413afa8e03028033d57.png" alt="Image from Gyazo" width="755.2"/></a>
