@@ -1,12 +1,12 @@
 .btn-icon {
-	border-radius: 0.25rem;
 	padding: 0.6rem;
+	border-radius: 0.25rem;
 	border: 2px solid var(--purple);
 	background: var(--white);
 	text-decoration: none;
 	display: inline-block;
 }
 
-.btn-icon {
+.btn-icon img {
 	vertical-align: middle;
 }

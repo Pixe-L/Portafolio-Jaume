@@ -16,37 +16,12 @@
 		<link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png" />
 		<link rel="apple-touch-icon" sizes="72x72" href="./apple-icon-72x72.png" />
 		<link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png" />
-		<link
-			rel="apple-touch-icon"
-			sizes="114x114"
-			href="./favicon/apple-icon-114x114.png"
-		/>
-		<link
-			rel="apple-touch-icon"
-			sizes="120x120"
-			href="./favicon/apple-icon-120x120.png"
-		/>
-		<link
-			rel="apple-touch-icon"
-			sizes="144x144"
-			href="./favicon/apple-icon-144x144.png"
-		/>
-		<link
-			rel="apple-touch-icon"
-			sizes="152x152"
-			href="./favicon/apple-icon-152x152.png"
-		/>
-		<link
-			rel="apple-touch-icon"
-			sizes="180x180"
-			href="./favicon/apple-icon-180x180.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="192x192"
-			href="./favicon/android-icon-192x192.png"
-		/>
+		<link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png" />
+		<link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png" />
 		<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
 		<link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png" />
 		<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
@@ -66,11 +41,11 @@
 			<a href="">
 				<img src="./images/LOGO.png" alt="Logo del la web" />
 			</a>
-			<nav aria-label="Barra de navegación">
+			<nav class="navegacion" aria-label="Barra de navegación">
 				<ul>
-					<li><a href="#"></a>HOLA</li>
-					<li><a href="#project"></a>PROYECTOS</li>
-					<li><a href="#contact"></a>HABLEMOS</li>
+					<li><a class="active" href="#" aria-current="page">HOLA</a></li>
+					<li><a href="#pro">PROYECTOS</a></li>
+					<li><a href="#con">HABLEMOS</a></li>
 				</ul>
 			</nav>
 			<a href="#" class="botton btn-primary" title="Descargar currículum">CURRÍCULUM</a>
@@ -80,34 +55,28 @@
 		<div class="wrapper">
 			<section class="hero">
 				<figure class="hero-img">
-					<img src="./images/jaume.png" alt="Jaume" title="Hero de Jaume" />
+					<img src="./images/jaume.png" alt="Jaume" title="Foto de Jaume" />
 				</figure>
 				<div class="hero-description">
-					<h1>
+					<h1 class="hello">
 						<span>¡Hola a todos!</span>
 						<span>Soy Jaume</span>
 					</h1>
 					<p>
-						Frontend Developer que le encanta implementar diseños que inspiran y atraen a
-						las personas.
+						Frontend Developer que le encanta implementar diseños que inspiran y atraen a las
+						personas.
 					</p>
-					<div class="social_networks">
-						<a href="https://github.com/Yasoom" class="btn-icon"
-							><img
-								src="./icons/icon-phone.svg"
-								alt="Icono teléfono"
-								title="Icono teléfono" /></a
-						><a href="https://github.com/Yasoom" class="btn-icon"
-							><img
-								src="./icons/icon-important_mail.svg"
-								alt="Icono mail"
-								title="Icono mail" /></a
-						><a href="https://github.com/Yasoom" class="btn-icon"
+					<div class="social-networks">
+						<a target="_blank" href="https://github.com/Yasoom" class="btn-icon"
+							><img src="./icons/icon-phone.svg" alt="Icono teléfono" title="Icono teléfono" /></a
+						><a target="_blank" href="https://github.com/Yasoom" class="btn-icon"
+							><img src="./icons/icon-important_mail.svg" alt="Icono mail" title="Icono mail" /></a
+						><a target="_blank" href="https://github.com/Yasoom" class="btn-icon"
 							><img
 								src="./icons/icon-instagram.svg"
 								alt="Icono instagram"
 								title="Icono instagram" /></a
-						><a href="https://github.com/Yasoom" class="btn-icon"
+						><a target="_blank" href="https://github.com/Yasoom" class="btn-icon"
 							><img
 								src="./icons/icon-twitter_squared.svg"
 								alt="Icono twitter"
@@ -121,20 +90,22 @@
 			</section>
 			<section class="experience" aria-label="Experiencia">
 				<p>
-					A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en
-					proyectos retadores e increíbles
+					A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos
+					retadores e increíbles
 				</p>
 				<p>Aquí hay algunos que me gustaría compartir.</p>
 				<img src="./icons/icons-down.svg" alt="Flecha abajo" title="Flecha abajo" />
 			</section>
 
 			<!-- PROJECT WEB -->
-			<section class="project-web" id="project" aria-label="Proyecto Leonidas">
+			<section id="pro" class="project" aria-label="Proyecto Leonidas">
 				<div class="project-img">
 					<img src="./images/web.png" alt="Web de Leonidas" title="Web de Leonidas" />
 				</div>
 				<div class="project-description">
-					<a class="title" href="#">leonidasesteban.com</a>
+					<a class="title" target="_blank" href="https://leonidasesteban.com"
+						>leonidasesteban.com</a
+					>
 					<p>
 						Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como
 						desarrollador Front-End.
@@ -150,22 +121,22 @@
 			<section class="testimony" aria-label="Testimonio personal">
 				<img src="./images/Leo.png" alt="Foto" title="Foto" />
 				<p>
-					"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo
-					que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".
+					"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos
+					hubiera llevado 6 meses solo les llevó 1,5 meses ".
 				</p>
 				<p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
 			</section>
 
 			<!-- PROJECT MARVOL -->
-			<section class="project-marvol" aria-label="Proyecto Marvo">
+			<section class="project" aria-label="Proyecto Marvo">
 				<div class="project-img">
 					<img src="./images/📱 iPad.png" alt="Proyecto Marvol" title="Proyecto Marvol" />
 				</div>
 				<div class="project-description">
 					<a class="title" href="#">MARVOL</a>
 					<p>
-						Es el sitio oficial de Marvol Entertainment. Explore películas, personajes,
-						cómics, programas de televisión, videos y más oficiales de Marvol.
+						Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics,
+						programas de televisión, videos y más oficiales de Marvol.
 					</p>
 					<div class="project-links">
 						<a href="https://github.com/Yasoom" class="botton btn-primary" target="_blank"
@@ -182,19 +153,15 @@
 			</section>
 
 			<!-- PROJECT NETNET -->
-			<section class="project-netnet" aria-label="Proyecto Netnet">
+			<section class="project" aria-label="Proyecto Netnet">
 				<div class="project-img">
-					<img
-						src="./images/📱 Iphone X.png"
-						alt="Proyecto Marvol"
-						title="Proyecto Marvol"
-					/>
+					<img src="./images/📱 Iphone X.png" alt="Proyecto Marvol" title="Proyecto Marvol" />
 				</div>
 				<div class="project-description">
 					<a class="title" href="#">NETNET</a>
 					<p>
-						Películas y series ilimitadas y mucho más. Disfruta donde quieras. Cancela
-						cuando quieras.
+						Películas y series ilimitadas y mucho más. Disfruta donde quieras. Cancela cuando
+						quieras.
 					</p>
 					<div class="project-links">
 						<a href="https://github.com/Yasoom" class="botton btn-primary" target="_blank"
@@ -207,27 +174,27 @@
 			<section class="testimony" aria-label="Testimonio personal">
 				<img src="./images/user.png" alt="Foto" title="Foto" />
 				<p>
-					"Por primera vez en la historia de nuestra empresa, aparecimos en todas las
-					plataformas en las que trabajamos".
+					"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en
+					las que trabajamos".
 				</p>
 				<p>MARCO CORTEZ / NETNET</p>
 			</section>
 		</div>
 
 		<!-- FORM -->
-		<section class="contact" id="contact" aria-label="Formulario de contacto">
-			<form action="" class="form">
-				<h2>HABLEMOS</h2>
-				<p>
-					Si está interesado en trabajar conmigo en su próximo proyecto, no dude en
-					ponerse en contacto conmigo.
+		<section id="con" class="contact" aria-label="Formulario de contacto">
+			<form id="con" action="" method="POST" class="form">
+				<h2 class="title">HABLEMOS</h2>
+				<p class="info">
+					Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en
+					contacto conmigo.
 				</p>
 				<label for="nameUser"
-					>Nombre completo*
+					><p class="name">Nombre completo<span class="red">*</span></p>
 					<input type="text" id="nameUser" placeholder="Arturo" required />
 				</label>
 				<label for="emailUser"
-					>Correo electrónico*
+					><p class="name">Correo electrónico<span class="red">*</span></p>
 					<input type="text" id="emailUser" placeholder="arturo@gmail.com" required />
 				</label>
 				<label for="messageUser"
@@ -250,25 +217,22 @@
 				<img src="./images/LOGO.png" />
 			</figure>
 			<div class="social-networks">
-				<a href="https://github.com/Yasoom" class="btn-icon"
+				<a target="_blank" href="https://github.com/Yasoom" class="btn-icon"
 					><img src="./icons/icon-phone.svg" alt="" /></a
-				><a href="https://github.com/Yasoom" class="btn-icon"
+				><a target="_blank" href="https://github.com/Yasoom" class="btn-icon"
 					><img src="./icons/icon-important_mail.svg" alt="" /></a
-				><a href="https://github.com/Yasoom" class="btn-icon"
+				><a target="_blank" href="https://github.com/Yasoom" class="btn-icon"
 					><img src="./icons/icon-instagram.svg" alt="" /></a
-				><a href="https://github.com/Yasoom" class="btn-icon"
+				><a target="_blank" href="https://github.com/Yasoom" class="btn-icon"
 					><img src="./icons/icon-twitter_squared.svg" alt="" /></a
-				><a href="https://github.com/Yasoom" class="btn-icon"
+				><a target="_blank" href="https://github.com/Yasoom" class="btn-icon"
 					><img src="./icons/icon-heart_outline.svg" alt=""
 				/></a>
 			</div>
 			<div class="created">
 				<p>
 					Hecho con el 💙 por
-					<a
-						href="https://www.youtube.com/c/TUTOSPIXEL"
-						class="footer-info"
-						target="_blank"
+					<a href="https://www.youtube.com/c/TUTOSPIXEL" class="footer-info" target="_blank"
 						>Arturo CR.</a
 					>
 					Copyright 2021 -

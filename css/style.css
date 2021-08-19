@@ -2,6 +2,15 @@
 @import './icons.css';
 @import './buttons.css';
 @import './hero.css';
+@import './wrapper.css';
+@import './navigation.css';
+@import './project.css';
+@import './social-networks.css';
+@import './footer.css';
+@import './form.css';
+@import './title.css';
+@import './experience.css';
+@import './message.css';
 
 :root {
 	--fontBase: 'Poppins', sans-serif;
@@ -14,11 +23,7 @@
 	--body2: 14px/22px var(--fontBase);
 	--button: bold 14px/22px var(--fontBase);
 	--caption: 12px/19px var(--fontBase);
-	--gradient: radial-gradient(
-			41.48% 11.48% at 2.38% 8.52%,
-			#747de9 0%,
-			rgba(255, 255, 255, 0) 100%
-		),
+	--gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747de9 0%, rgba(255, 255, 255, 0) 100%),
 		linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
 	--purple: #310a90;
 	--green: #42e2b8;

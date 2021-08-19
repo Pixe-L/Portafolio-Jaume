@@ -10,6 +10,7 @@
 	text-decoration: none;
 	text-align: center;
 	display: inline-block;
+	cursor: pointer;
 }
 
 .botton.btn-primary {
